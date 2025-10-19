@@ -88,6 +88,35 @@ section h3 {
   margin: 0;
 }
 
+.delete-participant {
+  background: none;
+  border: none;
+  color: #e53935;
+  padding: 4px;
+  margin-left: auto;
+  cursor: pointer;
+  opacity: 0.7;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-participant:hover {
+  opacity: 1;
+  background-color: rgba(229, 57, 53, 0.1);
+}
+
+.participant-item {
+  justify-content: flex-start;
+  position: relative;
+  transition: background-color 0.2s;
+}
+
+.participant-item:hover {
+  background-color: #f5f5f5;
+}
+
 .participant-item {
   display: flex;
   align-items: center;
